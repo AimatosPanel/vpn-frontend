@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+﻿import { useCallback } from 'react';
 import { apiService } from '../services/ApiService';
 
 export function useHasPermission() {

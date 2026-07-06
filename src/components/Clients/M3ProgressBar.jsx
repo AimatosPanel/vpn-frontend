@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 export default function M3ProgressBar({ value = 0, isOverlimit = false, isExpired = false }) {
   const totalSegments = 12;

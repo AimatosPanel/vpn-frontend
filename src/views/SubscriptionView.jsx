@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { apiService } from '../services/ApiService';
 import FormatService from '../services/FormatService';
 import { QRCodeSVG } from 'qrcode.react'; 

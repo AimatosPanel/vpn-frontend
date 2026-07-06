@@ -1,4 +1,4 @@
-class ApiService {
+﻿class ApiService {
   getApiBaseUrl() {
     if (window.API_BASE_URL && window.API_BASE_URL.trim() !== "") {
       return window.API_BASE_URL;

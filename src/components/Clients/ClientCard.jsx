@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import FormatService from '../../services/FormatService';
 import M3ProgressBar from './M3ProgressBar';
 import { Switch, Button, IconButton } from '../Common/UI';

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 
 export default function CountryFlag({ code, className = "w-10 h-7.5 rounded-lg border border-[#2B2930] shadow-sm" }) {
   const [loaded, setLoaded] = useState(false);

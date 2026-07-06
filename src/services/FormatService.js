@@ -1,4 +1,4 @@
-class FormatService {
+﻿class FormatService {
   static formatBytes(bytes) {
     if (bytes === 0 || !bytes) return '0 Б';
     const k = 1024;

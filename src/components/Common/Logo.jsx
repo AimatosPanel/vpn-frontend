@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 export default function Logo({ className = "w-8 h-8 text-[#D0BCFF]" }) {
   return (

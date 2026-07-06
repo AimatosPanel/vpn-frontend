@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import ClientCard from './ClientCard';
 import { useBulkToggle, useBulkReset, useBulkDelete } from '../../hooks/useApi';
 import { useHasPermission } from '../../hooks/useHasPermission';
