@@ -44,16 +44,16 @@ export function Switch({
 }) {
   const getBgClass = () => {
     if (checked) {
-      return 'bg-[#D0BCFF] border-transparent'; // Лавандовый фон при активации
+      return 'bg-[#D0BCFF] border-transparent'; 
     }
-    return 'bg-[#2B2930] border-[#8F8B97]'; // Темный фон в выключенном состоянии
+    return 'bg-[#2B2930] border-[#8F8B97]'; 
   };
 
   const getKnobClass = () => {
     if (checked) {
-      return 'translate-x-6 bg-[#381E72]'; // Фиолетовый ползунок справа
+      return 'translate-x-6 bg-[#381E72]'; 
     }
-    return 'translate-x-1 bg-[#8F8B97]'; // Серый ползунок слева
+    return 'translate-x-1 bg-[#8F8B97]'; 
   };
 
   const baseBtnStyles = 'relative inline-flex h-6 w-11 items-center rounded-full transition-colors duration-300 focus:outline-none border cursor-pointer flex-shrink-0';

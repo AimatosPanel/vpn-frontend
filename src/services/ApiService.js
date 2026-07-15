@@ -49,7 +49,7 @@
       if (!claims || !claims.exp) return true;
       
       const now = Math.floor(Date.now() / 1000);
-      return claims.exp < now; // Токен просрочен, если текущее время больше exp
+      return claims.exp < now; 
     } catch (e) {
       return true;
     }

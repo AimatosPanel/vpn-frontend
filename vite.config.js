@@ -9,7 +9,7 @@ export default defineConfig({
   ],
   server: {
     port: 5173,
-    host: '127.0.0.1', // ПРИНУДИТЕЛЬНЫЙ БИНД НА IPV4 127.0.0.1
+    host: '127.0.0.1', 
     watch: {
       usePolling: true,
       interval: 100,

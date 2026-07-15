@@ -3,7 +3,7 @@ import { apiService } from '../services/ApiService';
 import Logo from '../components/Common/Logo';
 
 export default function LoginView({ onLoginSuccess }) {
-  const [screen, setScreen] = useState('login'); // login, forgot-cli
+  const [screen, setScreen] = useState('login'); 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');

@@ -4,9 +4,9 @@ export default function M3ProgressBar({ value = 0, isOverlimit = false, isExpire
   const totalSegments = 12;
   const activeCount = Math.min(Math.round((value / 100) * totalSegments), totalSegments);
   const getActiveColorClass = () => {
-    if (isOverlimit || isExpired) return 'bg-[#F2B8B5]'; // Превышен лимит / Истек срок (Коралл)
-    if (value >= 80) return 'bg-[#FFE082]'; // Предупреждение о скором исчерпании (Золото)
-    return 'bg-[#D0BCFF]'; // Нормальный расход (Лаванда)
+    if (isOverlimit || isExpired) return 'bg-[#F2B8B5]'; 
+    if (value >= 80) return 'bg-[#FFE082]'; 
+    return 'bg-[#D0BCFF]'; 
   };
 
   return (
